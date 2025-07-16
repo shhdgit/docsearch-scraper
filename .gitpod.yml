@@ -9,5 +9,5 @@ tasks:
   - init: |
       pip install --user pipenv
       export PATH=$HOME/.local/bin:$PATH
-      pip install -r requirements.txt
+      pipenv install -r requirements.txt
       pipenv shell
